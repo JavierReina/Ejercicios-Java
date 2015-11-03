@@ -11,7 +11,7 @@ public class Ej4 {
 
   public static void main(String[] args) {
     
-    System.out.println("Este programa mostrará una carta aleatoriamente");
+    System.out.println("Este programa mostrará 20 números aleatorios");
     System.out.print("Pulse INTRO para continuar");
     System.console().readLine();
     
