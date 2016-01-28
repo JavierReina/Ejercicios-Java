@@ -1,0 +1,24 @@
+<!--
+Author: Francisco Javier Reina Benítez
+Ejercicio 7 Tema 12
+
+Combina las dos aplicaciones anteriores en una sola de tal forma que en la página principal
+se pueda elegir pasar de euros a pesetas o de pesetas a euros. Adorna la página con alguna
+foto o dibujo.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 7</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        Elija una opcion e introduzca la cantidad a convertir
+        <form action="secund.jsp" method="post">
+            <input type="radio" value="Euro" name="tipo"> Euro → Pesetas<br>
+            <input type="radio" value="Peseta" name="tipo"> Pesetas → Euro<br><br>
+            <input type="number" name="conv"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
