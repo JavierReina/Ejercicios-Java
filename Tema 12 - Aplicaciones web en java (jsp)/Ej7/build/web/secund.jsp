@@ -8,6 +8,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Ejercicio 7</title>
+        <link href="estilo.css" rel="stylesheet">
+        <%--la imagen elegida es por poner --%>
     </head>
     <body>
         <%

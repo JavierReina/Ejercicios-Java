@@ -1,0 +1,12 @@
+/* 
+    Document   : estilo
+    Author     : Francisco Javier Reina Benítez
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { 
+  background-image: url(imagenes/edea.jpg);
+  background-repeat: no-repeat;
+}
+
