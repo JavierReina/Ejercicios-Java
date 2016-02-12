@@ -59,6 +59,9 @@ public class Varias {
         total = total * base;
       }
     }
+    if (exponente == 0) {
+      total = 1;
+    }
     return total;
   }
   
